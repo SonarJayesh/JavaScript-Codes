@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>onblur</title >
+</head>
+<body>
+	<h1>HTML DOM Events</h1>
+	<h2>Blur Event </h2>
+	
+	Enter Student Name :<input type="text" id="fname" onblur="myfunction()">
+	<p>When you leave the input field, a function is triggered which transform the input text to upper case.
+	</p>
+<script>
+function myfunction()
+{
+	let a =document.getElementById("fname");
+	a.value=a.value.toUpperCase();
+}
+</script>
+</body>
+</html>
+
